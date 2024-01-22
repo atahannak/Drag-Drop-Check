@@ -1,0 +1,32 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid;
+}
+
+div.control-box {
+    position: relative;
+}
+
+table:nth-child(1) {
+    margin-right: 3rem;
+}
+
+button {
+    background-color: coral;
+    border: none;
+    padding: 1rem 3.8rem;
+    position: absolute;
+    bottom: -60px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
